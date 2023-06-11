@@ -1,0 +1,12 @@
+{
+  "name": "snscrft.com",
+  "script": "/var/www/snscrft.com/src/js/server.js",
+  "instances": "max",
+  "exec_mode": "cluster",
+  "watch": true,
+  "ignore_watch": ["node_modules", "built"],
+  "merge_logs": true,
+  "env": {
+    "PORT": 3003
+  }
+}
